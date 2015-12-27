@@ -158,7 +158,7 @@ The analysis was performed with:
 - name the column 'activityID"
 - load the feature vectors from X_test,txt into a dataframe (561 columns, no headers)
 - read the column IDs and names from features.txt into a dataframe (2 columns, 561 rows, no header)
-- use the column names from features to name the columns in the feature vector dataframe
+- use the column names from features to name the columns in the feature vector dataframe.  Use the exact names to preserve the traceability.
 
 ##### Identify the 'mean' and 'standard deviation' columns and assemble the cleaned up test data set
 - search the column names (from the features.txt) for 'mean' or 'std'
@@ -191,7 +191,7 @@ A file containing the average of each 'mean' and 'standard deviation' for each a
 - activityID	- (numeric 1-6)
 - subjectID	- (numeric 1-30)
 
-#### These variable are an average of source data over the subject and activity - see below for description of source data
+#### These variable are an average of source data over the subject and activity - see below for description of source data.  The names were carried forward from the source to provide traceability.
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y
 - tBodyAcc-mean()-Z
