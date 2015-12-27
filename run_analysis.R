@@ -80,4 +80,4 @@ cleanData <- merge.data.frame(activityNames,cleanData,all = TRUE)  # this does N
 out <- aggregate(cleanData[,-2],list(cleanData$subjectID,cleanData$activityID,cleanData$activityName),mean)
 
 # write the table out to submit
-write.table(out,file="projectOut.txt")
+write.table(out,file="projectOut.txt",row.names = FALSE)
