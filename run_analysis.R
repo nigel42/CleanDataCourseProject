@@ -79,5 +79,14 @@ cleanData <- merge.data.frame(activityNames,cleanData,all = TRUE)  # this does N
 # calculate the average of each measurement for each activity and each subject
 out <- aggregate(cleanData[,-2],list(cleanData$subjectID,cleanData$activityID,cleanData$activityName),mean)
 
+# remove the redundant group columns added by aggregate
+out <- out[,c(-1,-2)]
+
+# fix up the column names
+colnames(out)[1] <- "activityName"
+# add an "-avg()" suffix the the averaged columns
+colnames(out)[c(-1,-2,-3)] <- paste(colnames(out)[c(-1,-2,-3)],"-avg()",sep='')
+
+
 # write the table out to submit
 write.table(out,file="projectOut.txt",row.names = FALSE)
