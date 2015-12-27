@@ -183,85 +183,87 @@ A file containing the average of each 'mean' and 'standard deviation' for each a
 - Group.3		- (character string) grouping column activityName
 - activityID	- (numeric 1-6)
 - subjectID	- (numeric 1-30)
-- tBodyAcc-mean()-X - see below
-- tBodyAcc-mean()-Y - see below
-- tBodyAcc-mean()-Z - see below
-- tGravityAcc-mean()-X - see below
-- tGravityAcc-mean()-Y - see below
-- tGravityAcc-mean()-Z - see below
-- tBodyAccJerk-mean()-X - see below
-- tBodyAccJerk-mean()-Y - see below
-- tBodyAccJerk-mean()-Z - see below
-- tBodyGyro-mean()-X - see below
-- tBodyGyro-mean()-Y - see below
-- tBodyGyro-mean()-Z - see below
-- tBodyGyroJerk-mean()-X - see below
-- tBodyGyroJerk-mean()-Y - see below
-- tBodyGyroJerk-mean()-Z - see below
-- tBodyAccMag-mean() - see below
-- tGravityAccMag-mean() - see below
-- tBodyAccJerkMag-mean() - see below
-- tBodyGyroMag-mean() - see below
-- tBodyGyroJerkMag-mean() - see below
-- fBodyAcc-mean()-X - see below
-- fBodyAcc-mean()-Y - see below
-- fBodyAcc-mean()-Z - see below
-- fBodyAcc-meanFreq()-X - see below
-- fBodyAcc-meanFreq()-Y - see below
-- fBodyAcc-meanFreq()-Z - see below
-- fBodyAccJerk-mean()-X - see below
-- fBodyAccJerk-mean()-Y - see below
-- fBodyAccJerk-mean()-Z - see below
-- fBodyAccJerk-meanFreq()-X - see below
-- fBodyAccJerk-meanFreq()-Y - see below
-- fBodyAccJerk-meanFreq()-Z - see below
-- fBodyGyro-mean()-X - see below
-- fBodyGyro-mean()-Y - see below
-- fBodyGyro-mean()-Z - see below
-- fBodyGyro-meanFreq()-X - see below
-- fBodyGyro-meanFreq()-Y - see below
-- fBodyGyro-meanFreq()-Z - see below
-- fBodyAccMag-mean() - see below
-- fBodyAccMag-meanFreq() - see below
-- fBodyBodyAccJerkMag-mean() - see below
-- fBodyBodyAccJerkMag-meanFreq() - see below
-- fBodyBodyGyroMag-mean() - see below
-- fBodyBodyGyroMag-meanFreq() - see below
-- fBodyBodyGyroJerkMag-mean() - see below
-- fBodyBodyGyroJerkMag-meanFreq() - see below
-- tBodyAcc-std()-X - see below
-- tBodyAcc-std()-Y - see below
-- tBodyAcc-std()-Z - see below
-- tGravityAcc-std()-X - see below
-- tGravityAcc-std()-Y - see below
-- tGravityAcc-std()-Z - see below
-- tBodyAccJerk-std()-X - see below
-- tBodyAccJerk-std()-Y - see below
-- tBodyAccJerk-std()-Z - see below
-- tBodyGyro-std()-X - see below
-- tBodyGyro-std()-Y - see below
-- tBodyGyro-std()-Z - see below
-- tBodyGyroJerk-std()-X - see below
-- tBodyGyroJerk-std()-Y - see below
-- tBodyGyroJerk-std()-Z - see below
-- tBodyAccMag-std() - see below
-- tGravityAccMag-std() - see below
-- tBodyAccJerkMag-std() - see below
-- tBodyGyroMag-std() - see below
-- tBodyGyroJerkMag-std() - see below
-- fBodyAcc-std()-X - see below
-- fBodyAcc-std()-Y - see below
-- fBodyAcc-std()-Z - see below
-- fBodyAccJerk-std()-X - see below
-- fBodyAccJerk-std()-Y - see below
-- fBodyAccJerk-std()-Z - see below
-- fBodyGyro-std()-X - see below
-- fBodyGyro-std()-Y - see below
-- fBodyGyro-std()-Z - see below
-- fBodyAccMag-std() - see below
-- fBodyBodyAccJerkMag-std() - see below
-- fBodyBodyGyroMag-std() - see below
-- fBodyBodyGyroJerkMag-std() - see below
+
+#### These variable are an average of source data over the subject and activity - see below for description of source data
+- tBodyAcc-mean()-X
+- tBodyAcc-mean()-Y
+- tBodyAcc-mean()-Z
+- tGravityAcc-mean()-X
+- tGravityAcc-mean()-Y
+- tGravityAcc-mean()-Z
+- tBodyAccJerk-mean()-X
+- tBodyAccJerk-mean()-Y
+- tBodyAccJerk-mean()-Z
+- tBodyGyro-mean()-X
+- tBodyGyro-mean()-Y
+- tBodyGyro-mean()-Z
+- tBodyGyroJerk-mean()-X
+- tBodyGyroJerk-mean()-Y
+- tBodyGyroJerk-mean()-Z
+- tBodyAccMag-mean()
+- tGravityAccMag-mean()
+- tBodyAccJerkMag-mean()
+- tBodyGyroMag-mean()
+- tBodyGyroJerkMag-mean()
+- fBodyAcc-mean()-X
+- fBodyAcc-mean()-Y
+- fBodyAcc-mean()-Z
+- fBodyAcc-meanFreq()-X
+- fBodyAcc-meanFreq()-Y
+- fBodyAcc-meanFreq()-Z
+- fBodyAccJerk-mean()-X
+- fBodyAccJerk-mean()-Y
+- fBodyAccJerk-mean()-Z
+- fBodyAccJerk-meanFreq()-X
+- fBodyAccJerk-meanFreq()-Y
+- fBodyAccJerk-meanFreq()-Z
+- fBodyGyro-mean()-X
+- fBodyGyro-mean()-Y
+- fBodyGyro-mean()-Z
+- fBodyGyro-meanFreq()-X
+- fBodyGyro-meanFreq()-Y
+- fBodyGyro-meanFreq()-Z
+- fBodyAccMag-mean()
+- fBodyAccMag-meanFreq()
+- fBodyBodyAccJerkMag-mean()
+- fBodyBodyAccJerkMag-meanFreq()
+- fBodyBodyGyroMag-mean()
+- fBodyBodyGyroMag-meanFreq()
+- fBodyBodyGyroJerkMag-mean()
+- fBodyBodyGyroJerkMag-meanFreq()
+- tBodyAcc-std()-X
+- tBodyAcc-std()-Y
+- tBodyAcc-std()-Z
+- tGravityAcc-std()-X
+- tGravityAcc-std()-Y
+- tGravityAcc-std()-Z
+- tBodyAccJerk-std()-X
+- tBodyAccJerk-std()-Y
+- tBodyAccJerk-std()-Z
+- tBodyGyro-std()-X
+- tBodyGyro-std()-Y
+- tBodyGyro-std()-Z
+- tBodyGyroJerk-std()-X
+- tBodyGyroJerk-std()-Y
+- tBodyGyroJerk-std()-Z
+- tBodyAccMag-std()
+- tGravityAccMag-std()
+- tBodyAccJerkMag-std()
+- tBodyGyroMag-std()
+- tBodyGyroJerkMag-std()
+- fBodyAcc-std()-X
+- fBodyAcc-std()-Y
+- fBodyAcc-std()-Z
+- fBodyAccJerk-std()-X
+- fBodyAccJerk-std()-Y
+- fBodyAccJerk-std()-Z
+- fBodyGyro-std()-X
+- fBodyGyro-std()-Y
+- fBodyGyro-std()-Z
+- fBodyAccMag-std()
+- fBodyBodyAccJerkMag-std()
+- fBodyBodyGyroMag-std()
+- fBodyBodyGyroJerkMag-std()
 
 ### From the downloaded data set (features_info,txt):
 
@@ -324,7 +326,8 @@ A file containing the average of each 'mean' and 'standard deviation' for each a
 		arCoeff(): Autorregresion coefficients with Burg order equal to 4
 		correlation(): correlation coefficient between two signals
 		maxInds(): index of the frequency component with largest magnitude
-		meanFreq(): Weighted average of the frequency components to obtain a mean 		frequency
+		meanFreq(): Weighted average of the frequency components to obtain a mean
+		frequency
 		skewness(): skewness of the frequency domain signal 
 		kurtosis(): kurtosis of the frequency domain signal 
 		bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of 
